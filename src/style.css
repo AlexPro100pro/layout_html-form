@@ -4,17 +4,21 @@
 }
 
 .form-field {
-  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.form-field:last-child {
+  margin-bottom: 0;
 }
 
 .form-block {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
-.top {
-  margin-top: 0;
-}
-
-.bottom {
+.form-block:last-child {
   margin-bottom: 0;
+}
+
+.form-block__button {
+  margin: 0;
 }
